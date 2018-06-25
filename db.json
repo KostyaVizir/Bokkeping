@@ -1,0 +1,357 @@
+{
+  "currency": {
+    "base": "UAH",
+    "date": "2017-42-42",
+    "rates": {
+      "USD": 27,
+      "EUR": 30
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    }
+  ],
+  "bill": {
+    "value": 100000,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "new",
+      "capacity": 4,
+      "id": 4
+    },
+    {
+      "name": "Тактикульность-1",
+      "capacity": 50,
+      "id": 5
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.06.2017 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.06.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.06.2017 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "income",
+      "category": 5,
+      "date": "31.03.2018 19:39:47",
+      "description": "m4 sell",
+      "id": 6
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": 5,
+      "date": "31.03.2018 19:43:08",
+      "description": "buy p 416",
+      "id": 7
+    },
+    {
+      "type": "income",
+      "amount": 6000,
+      "category": 1,
+      "date": "31.03.2018 19:43:56",
+      "description": "m 16",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 5000,
+      "category": 1,
+      "date": "31.03.2018 19:45:35",
+      "description": "ak 74",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 1,
+      "date": "31.03.2018 19:46:46",
+      "description": "test",
+      "id": 10
+    },
+    {
+      "type": "income",
+      "amount": 5000,
+      "category": 1,
+      "date": "31.03.2018 19:57:25",
+      "description": "test 3",
+      "id": 11
+    },
+    {
+      "type": "outcome",
+      "amount": 1200,
+      "category": 3,
+      "date": "31.03.2018 21:15:17",
+      "description": "gas",
+      "id": 12
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "date": "03.06.2018 14:43:34",
+      "description": "test",
+      "id": 13
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": null,
+      "date": "03.06.2018 14:55:09",
+      "description": "test",
+      "id": 14
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "date": "03.06.2018 14:55:52",
+      "description": "test 2",
+      "id": 15
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": null,
+      "date": "03.06.2018 14:58:14",
+      "description": "test 3",
+      "id": 16
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "date": "03.06.2018 14:58:38",
+      "description": "test 2",
+      "id": 17
+    },
+    {
+      "type": "income",
+      "amount": 10,
+      "category": null,
+      "date": "03.06.2018 14:59:54",
+      "description": "test 5",
+      "id": 18
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "03.06.2018 15:02:49",
+      "description": "test",
+      "id": 19
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "date": "03.06.2018 15:04:00",
+      "description": "test",
+      "id": 20
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "03.06.2018 15:04:11",
+      "description": "test 2",
+      "id": 21
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "03.06.2018 15:06:21",
+      "description": "test 2",
+      "id": 22
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "03.06.2018 16:30:46",
+      "description": "test 5",
+      "id": 23
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "date": "03.06.2018 16:37:50",
+      "description": "yy",
+      "id": 24
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": null,
+      "date": "03.06.2018 16:38:05",
+      "description": "test 2",
+      "id": 25
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "06.06.2018 19:10:17",
+      "description": "test 2",
+      "id": 26
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": null,
+      "date": "06.06.2018 19:12:17",
+      "description": "test",
+      "id": 27
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": null,
+      "date": "06.06.2018 19:14:52",
+      "description": "test 2",
+      "id": 28
+    },
+    {
+      "type": "income",
+      "amount": 150,
+      "category": null,
+      "date": "06.06.2018 19:17:05",
+      "description": "test 2",
+      "id": 29
+    },
+    {
+      "type": "income",
+      "amount": 10,
+      "category": null,
+      "date": "06.06.2018 19:23:40",
+      "description": "uiuho",
+      "id": 30
+    },
+    {
+      "type": "income",
+      "amount": 10,
+      "category": null,
+      "date": "06.06.2018 19:27:57",
+      "description": "test 5",
+      "id": 31
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": null,
+      "date": "06.06.2018 19:36:16",
+      "description": "test 3",
+      "id": 32
+    },
+    {
+      "type": "income",
+      "amount": 10,
+      "category": null,
+      "date": "06.06.2018 19:49:36",
+      "description": "uiuho",
+      "id": 33
+    },
+    {
+      "type": "income",
+      "amount": 155,
+      "category": "-LE4ToqI9Flffu0iEieR",
+      "date": "06.06.2018 19:50:51",
+      "description": "uiuho",
+      "id": 34
+    },
+    {
+      "type": "income",
+      "amount": 17,
+      "category": null,
+      "date": "sig msx",
+      "description": "06.06.2018 20:19:50",
+      "id": "yy"
+    },
+    {
+      "type": "income",
+      "amount": 19,
+      "category": null,
+      "date": "06.06.2018 20:21:01",
+      "description": "test 2",
+      "id": 35,
+      "catName": "sig p226"
+    },
+    {
+      "type": "outcome",
+      "amount": 199,
+      "category": null,
+      "date": "06.06.2018 20:22:02",
+      "description": "hh",
+      "catName": "sig msx",
+      "id": 36
+    },
+    {
+      "type": "income",
+      "amount": 16,
+      "category": "-LE4ToqI9Flffu0iEieR",
+      "date": "06.06.2018 20:23:01",
+      "description": "uiuho",
+      "catName": "sig p226",
+      "id": 37
+    }
+  ]
+}
